@@ -123,9 +123,10 @@ TARGET_LD_SHIM_LIBS += \
 # Hardware Classes
 #
 ## LineageOS HW
-JAVA_SOURCE_OVERLAYS := \
-    org.lineageos.hardware|hardware/samsung/lineagehw|**/*.java \
-    org.lineageos.hardware|device/samsung/zero-common/lineagehw|**/*.java
+#JAVA_SOURCE_OVERLAYS := \
+#
+#    org.lineageos.hardware|hardware/samsung/lineagehw|**/*.java \
+#    org.lineageos.hardware|device/samsung/zero-common/lineagehw|**/*.java
 
 # HWCServices
 BOARD_USES_HWC_SERVICES := false
