@@ -130,3 +130,9 @@ sys.usb.ffs.aio_compat=1
 #
 # END zero device-properties
 ###
+
+# XOS props
+
+# Fling velocities (smoother scrolling)
+ro.min.fling_velocity=140
+ro.max.fling_velocity=19200
