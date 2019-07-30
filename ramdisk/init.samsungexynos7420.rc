@@ -203,12 +203,12 @@ on post-fs-data
     chmod 0775 /efs/bluetooth
 
 on boot
-    
+
     # Use higher control-temperature for IPA (default: 45)
     write /sys/power/ipa/control_temp 65
 
-    # Set vibrator intensity 75%
-    write /sys/devices/virtual/timed_output/vibrator/intensity 7500
+    # Set vibrator intensity 50%
+    write /sys/devices/virtual/timed_output/vibrator/intensity 5000
 
     #setprop ro.radio.noril yes
 
