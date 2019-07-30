@@ -32,6 +32,6 @@ LOCAL_SHARED_LIBRARIES := \
 	liblog \
 	libutils
 
-LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter -Wno-unused-function
+LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter -Wno-unused-function -O3
 
 include $(BUILD_EXECUTABLE)
