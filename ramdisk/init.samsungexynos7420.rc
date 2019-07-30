@@ -289,7 +289,7 @@ on boot
     chown system radio /sys/class/android_usb/android0/usb_lock
 
 # SSWAP
-    write /proc/sys/vm/swappiness 150
+    write /proc/sys/vm/swappiness 28
 
     # FM Radio
     chmod 0640 /dev/fmradio
