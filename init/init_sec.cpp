@@ -52,7 +52,7 @@ namespace android {
 namespace init {
 
 void vendor_load_properties()
-{    
+{
     string device_orig = base::GetProperty("ro.product.device", "");
     string platform = base::GetProperty("ro.board.platform", "");
     string bootloader = base::GetProperty("ro.bootloader", "");
@@ -268,6 +268,7 @@ void vendor_load_properties()
     property_override("ro.product.device", device);
     property_override("ro.build.product", product);
     property_override("ro.lineage.device", device);
+    property_override("org.pixelexperience.device", device);
     property_override("ro.vendor.product.device", device);
     property_override("ro.build.description", description_orig);
     property_override("ro.build.fingerprint", fingerprint_orig);
