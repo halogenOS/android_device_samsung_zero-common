@@ -412,4 +412,8 @@ Add a comment to this line
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
+
+
+    <!-- Whether device has oled display -->
+    <bool name="config_hasOledDisplay">true</bool>
 </resources>
